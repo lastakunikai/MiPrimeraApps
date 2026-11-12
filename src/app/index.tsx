@@ -35,23 +35,26 @@ export default function HomeScreen() {
         <ThemedView style={styles.heroSection}>
           <AnimatedIcon />
           <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
+           Juan Vasquez
           </ThemedText>
         </ThemedView>
-
+<img src="assets/images/yourworstnightmare.jpg" alt="yourworstnightmare" />
         <ThemedText type="code" style={styles.code}>
-          get started
+          Tecnico Salesiano
         </ThemedText>
 
         <ThemedView type="backgroundElement" style={styles.stepContainer}>
           <HintRow
-            title="Try editing"
-            hint={<ThemedText type="code">src/app/index.tsx</ThemedText>}
+            title="CURSO"
+            hint={<ThemedText type="code">2do E1</ThemedText>}
+            im
+            
           />
-          <HintRow title="Dev tools" hint={getDevMenuHint()} />
+          
+          <HintRow title="MATERIA" hint={getDevMenuHint()} />
           <HintRow
-            title="Fresh start"
-            hint={<ThemedText type="code">npm run reset-project</ThemedText>}
+            title="FECHA"
+            hint={<ThemedText type="code">12/11/26</ThemedText>}
           />
         </ThemedView>
 
